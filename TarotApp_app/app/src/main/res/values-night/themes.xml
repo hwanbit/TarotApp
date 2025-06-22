@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TarotApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 기존 설정들… -->
+        <!-- 앱 전체 배경을 하얀색으로 -->
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="Theme.TarotApp" parent="Base.Theme.TarotApp" />
+</resources>

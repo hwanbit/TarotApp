@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+    <!-- 왼쪽 상단 앱 로고 -->
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/tarot_logo_img"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:padding="4dp" />
+
+    <!-- 중앙 텍스트 (타로 주제) -->
+    <TextView
+        android:id="@+id/tv_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/purple"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="70dp"
+        android:text="오늘의 운세"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"/>
+
+        <!-- 오른쪽 홈 버튼 (클릭 가능) -->
+        <ImageView
+            android:id="@+id/btn_home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="15dp"
+            android:padding="4dp"
+            android:src="@drawable/home"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+    <!-- 카드 선택 안내 문구 -->
+    <TextView
+        android:id="@+id/tv_draw_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="깊이 심호흡하고 집중하며\n세 장의 카드를 선택해주세요."
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <!-- 카드 뒷면 이미지 22장 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+    <GridLayout
+        android:id="@+id/grid_cards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_draw_title"
+        app:layout_constraintBottom_toTopOf="@+id/tv_footer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:padding="8dp"/>
+
+    </LinearLayout>
+
+    <!-- 푸터 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_footer"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="@color/purple"
+        android:padding="16dp"
+        android:text="2025. Sun All rights reserved."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

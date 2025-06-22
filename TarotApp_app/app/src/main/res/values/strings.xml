@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TarotApp</string>
+
+    <!-- 타로 카드 데이터 -->
+    <string-array name="card_names"> <!-- 타로 카드 이름 -->
+        <item>The Fool (광대)</item>
+        <item>The Magician (마술사)</item>
+        <item>The High Priestess (여교황)</item>
+        <item>The Empress (여황제)</item>
+        <item>The Emperor (황제)</item>
+        <item>The Hierophant (교황)</item>
+        <item>The Lovers (연인)</item>
+        <item>The Chariot (전차)</item>
+        <item>Strength (힘)</item>
+        <item>The Hermit (은둔자)</item>
+        <item>Wheel of Fortune (운명의 수레바퀴)</item>
+        <item>Justice (정의)</item>
+        <item>The Hanged Man (매달린 남자)</item>
+        <item>Death (죽음)</item>
+        <item>Temperance (절제)</item>
+        <item>The Devil (악마)</item>
+        <item>The Tower (탑)</item>
+        <item>The Star (별)</item>
+        <item>The Moon (달)</item>
+        <item>The Sun (태양)</item>
+        <item>Judgement (심판)</item>
+        <item>The World (세계)</item>
+
+    </string-array>
+    <string-array name="card_keywords"> <!-- 타로 카드 키워드 -->
+        <item>모험, 순수</item>
+        <item>결정, 창조</item>
+        <item>지식, 총명</item>
+        <item>풍요, 모성</item>
+        <item>책임, 부성</item>
+        <item>가르침, 관대함</item>
+        <item>연애, 애정</item>
+        <item>전진, 승리</item>
+        <item>힘, 용기</item>
+        <item>탐색, 사려깊음</item>
+        <item>기회, 행운</item>
+        <item>균형, 정당함</item>
+        <item>희생, 인내</item>
+        <item>격변, 이별</item>
+        <item>조화, 견실</item>
+        <item>속박, 타락</item>
+        <item>파괴, 멸망</item>
+        <item>희망, 동경</item>
+        <item>불안, 혼돈</item>
+        <item>밝은 미래, 만족</item>
+        <item>부활, 개선</item>
+        <item>완성, 완전</item>
+
+    </string-array>
+    <array name="card_images"> <!-- 타로 카드 이미지 -->
+        <item>@drawable/the_fool</item>
+        <item>@drawable/the_magician</item>
+        <item>@drawable/the_high_priestess</item>
+        <item>@drawable/the_empress</item>
+        <item>@drawable/the_emperor</item>
+        <item>@drawable/the_hierophant</item>
+        <item>@drawable/the_lovers</item>
+        <item>@drawable/the_chariot</item>
+        <item>@drawable/strength</item>
+        <item>@drawable/the_hermit</item>
+        <item>@drawable/wheel_of_fortune</item>
+        <item>@drawable/justice</item>
+        <item>@drawable/the_hanged_man</item>
+        <item>@drawable/death</item>
+        <item>@drawable/temperance</item>
+        <item>@drawable/the_devil</item>
+        <item>@drawable/the_tower</item>
+        <item>@drawable/the_star</item>
+        <item>@drawable/the_moon</item>
+        <item>@drawable/the_sun</item>
+        <item>@drawable/judgement</item>
+        <item>@drawable/the_world</item>
+
+    </array>
+</resources>
